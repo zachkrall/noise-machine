@@ -1,0 +1,15 @@
+root: true
+ignorePatterns:
+  - 'main/'
+parser: '@typescript-eslint/parser'
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:jsx-a11y/recommended
+plugins:
+  - '@typescript-eslint'
+  - eslint-plugin-react
+  - eslint-plugin-react-hooks
+  - eslint-plugin-jsx-a11y
+rules:
+  'jsx-a11y/anchor-is-valid': off
