@@ -23,6 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "@stitches/react": "^1.2.8",
+    "@types/p5": "^1.4.3",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
@@ -37,8 +38,10 @@
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^7.5.3",
+    "p5": "^1.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-use": "^17.4.0",
     "tone": "^14.7.77",
     "typescript": "^4.8.4",
     "vite": "^3.1.8"

@@ -25,6 +25,9 @@ function createWindow() {
     resizable: false,
     transparent: true,
 
+    vibrancy: 'fullscreen-ui',
+    visualEffectState: 'active',
+
     webPreferences: {
       preload: join(__dirname, 'preload.js')
     }

@@ -45,6 +45,7 @@ export const useTone = () => {
     stop,
     setVolume,
     setType,
+    src: tone,
 
     isPlaying
   }

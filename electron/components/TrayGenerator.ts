@@ -1,4 +1,4 @@
-import { Tray, Menu, BrowserWindow, MenuItemConstructorOptions } from 'electron'
+import { BrowserWindow, Tray, Menu, MenuItemConstructorOptions } from 'electron'
 import { is } from 'electron-util'
 import path from 'path'
 
